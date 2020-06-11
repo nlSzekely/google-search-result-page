@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@500&display=swap');
 *{
     padding: 0;
     margin: 0;
@@ -311,7 +312,6 @@ footer{
     display: flex;
     align-items: center;
     border-top: 1px solid rgb(214, 213, 213);
-    padding: 0 20px;
     justify-content: space-between;
 }
 
@@ -392,3 +392,71 @@ footer{
     color: white;
     font-size: 50px;
 }
+
+/* related links */
+.related_links{
+    display: flex;
+    width: 100%;   
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+.column{
+    display: flex;
+    flex-direction: column;
+    margin-right: 30px;
+
+}
+.column a{
+    margin: 5px 0;
+}
+
+
+/* google select page */
+.google_select_page{
+    display: flex;
+    font-size: 30px;
+    font-weight: 500;
+    font-family: 'Noto Sans TC', sans-serif;
+    width: 100%;
+    justify-content: center;
+    margin-bottom: 30px;
+}
+.letter_o{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #F4B400;
+    cursor: pointer;
+}
+.letter_o a{
+    font-size: 15px;
+  
+    color: #4285F4;
+}
+
+.g{
+    color: #4285F4;
+}
+.l{
+   color: #0F9D58;
+}
+.e{
+    color:#DB4437;
+}
+.next{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 13px;
+    color: #4285F4;
+}
+.next i{
+    margin-top: 20px;
+}
+.next a{
+    color: #4285F4;
+}
+
+/*  */
