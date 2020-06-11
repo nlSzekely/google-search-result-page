@@ -1,6 +1,11 @@
 const nav = document.querySelector("nav");
 const navHeight = nav.offsetHeight;
-console.log(navHeight)
+
+// regular expression for keywords
+const card = document.querySelector('.card');
+
+
+
 window.addEventListener("scroll", handleScroll);
 
 const min = -70;
@@ -18,5 +23,4 @@ function handleScroll(){
         nav.style.removeProperty("top");
         document.documentElement.style.removeProperty("padding-top");
     }
-    
 }
